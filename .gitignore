@@ -1,0 +1,109 @@
+############################
+# macOS / Finder junk
+############################
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.Spotlight-V100
+.Trashes
+
+############################
+# Xcode user data & derived data
+############################
+
+## Keep project and workspace files tracked:
+##   nq.xcodeproj
+##   nq.xcworkspace (if present)
+## These are needed for others to open the project.
+
+# Ignore per-user settings and temp data:
+xcuserdata/
+*.xcuserdatad
+*.xcworkspace/xcuserdata/
+
+# Scheme/user state
+*.xcscmblueprint
+*.xccheckout
+*.xcuserstate
+
+# Build products / intermediates
+build/
+DerivedData/
+index.noindex/
+
+############################
+# Swift Package Manager
+############################
+.swiftpm/
+.build/
+
+############################
+# CocoaPods (if you ever add it)
+############################
+Pods/
+podfile.lock
+
+############################
+# Carthage (if you ever add it)
+############################
+Carthage/Build/
+Carthage/Checkouts/
+
+############################
+# Fastlane
+############################
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+############################
+# Logs, archives, profiling
+############################
+*.log
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.gcno
+*.profdata
+
+############################
+# App-specific secrets / personal data
+############################
+
+# Known secrets/config for this app
+nq/Config/AppSecrets.swift
+
+# Generic secrets / env files (if you add them later)
+*.env
+*.env.*
+*.secret.*
+*.secrets.*
+*.key
+*.pem
+*.p12
+*.mobileprovision
+*.der
+
+############################
+# Test targets (you requested these ignored)
+############################
+nqTests/
+nqUITests/
+
+############################
+# Misc editor/IDE files
+############################
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
